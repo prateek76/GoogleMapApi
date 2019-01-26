@@ -48,7 +48,8 @@
       var california = {}
 
       function showPosition(position) {
-        california = {lat: position.coords.latitude, lng: position.coords.longitude};
+        california.lat = position.coords.latitude;
+        california.lng = position.coords.longitude;
       }
       alert(california);
 

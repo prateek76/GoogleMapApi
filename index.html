@@ -49,8 +49,9 @@
 
       function showPosition(position) {
         california = {lat: position.coords.latitude, lng: position.coords.longitude};
-        alert(position.coords.longitude);
+        alert(california.lat);
       }
+      alert(california.lng);
 
       //var california = {lat: 37.4419, lng: -122.1419};
       map = new google.maps.Map(document.getElementById('map'), {
